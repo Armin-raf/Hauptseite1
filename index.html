@@ -1479,4 +1479,60 @@
       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"></path>
       </svg>
-    </button><h2 id="meetergo-modal-title" style="position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;">Meetergo Booking</h2><p id="meetergo-modal-description" style="position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;">Calendar booking interface</p></div><script src="https://liv-showcase.s3.eu-central-1.amazonaws.com/browser-v3.js" async=""></script><div id="meetergo-notifications" style="position: fixed; top: 20px; right: 20px; z-index: 10000; max-width: 400px; pointer-events: none;"></div></body></html>
+    </button><h2 id="meetergo-modal-title" style="position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;">Meetergo Booking</h2><p id="meetergo-modal-description" style="position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;">Calendar booking interface</p></div><script src="https://liv-showcase.s3.eu-central-1.amazonaws.com/browser-v3.js" async=""></script><div id="meetergo-notifications" style="position: fixed; top: 20px; right: 20px; z-index: 10000; max-width: 400px; pointer-events: none;"></div><!-- CHATBOT START -->
+<style>
+#chatbot-fab {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#chatbot-box {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+  width: 380px;
+  height: 500px;
+  background: white;
+  border-radius: 12px;
+  display: none;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+#chatbot-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+
+<button id="chatbot-fab">🤖</button>
+
+<div id="chatbot-box">
+  <iframe src="https://hypobranchial-inez-nonmonogamous.ngrok-free.dev/webhook-test/f00000d1-7b24-4ebc-afa8-1e8f3766aea8"></iframe>
+</div>
+
+<script>
+const btn = document.getElementById("chatbot-fab");
+const box = document.getElementById("chatbot-box");
+
+btn.onclick = () => {
+  box.style.display =
+    box.style.display === "block" ? "none" : "block";
+};
+</script>
+<!-- CHATBOT END -->
+
+</body>
+</html>
+</body></html>
